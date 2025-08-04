@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ricardo Andres Garcia">
+  <meta name="description" content="Hoja de Vida de Ricardo Andres Garcia">
+  <title>Hoja de Vida</title>
+  <link href=" ./CSS/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Conexion a Js no esta en uso todavia -->
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="#" class="button" onclick="cargarContenido('experiencia')">Experiencia Profesional</a>
+      <a href="#" class="button" onclick="cargarContenido('educacion')">Educación</a>
+      <a href="#" class="button" onclick="cargarContenido('skills')">Skills</a>
+      <a href="#" class="button" onclick="cargarContenido('software_skills')">Software Skills</a>
+    </nav>
+  </header>
+
+  <!-- Aside -->
+  <div class="container-main-aside">
+    <aside>
+      <figure>
+        <img id="profile_photo" src="assets/Ricardo.jpg" alt="Ricardo Andres Garcia">
+      </figure>
+      <section>
+        <article>
+          <h2>Ricardo Andres Garcia</h2>
+          <h3>Business Analytics Manager LATAM</h3>
+          <p> Gerente de Analítica de Negocios con amplia experiencia en
+            operaciones de back-office, inteligencia empresarial y reportes
+            basados en datos. Experto en el uso de Power BI, DAX, Power
+            Query, Python y Excel para diseñar reportes interactivos,
+            desarrollar KPIs avanzados y automatizar flujos de trabajo para la
+            toma de decisiones estratégicas. Competente en transformar
+            datos en información accionable mediante técnicas sólidas de
+            visualización y análisis. Con sólidas habilidades en liderazgo,
+            comunicación y gestión de la información.
+          </p>
+        </article>
+      </section>
+    </aside>
+
+    <!-- Main -->
+    <main id="main-content" tabindex="0" aria-live="polite">
+      <!-- Aquí se cargará el contenido dinámico ejecutado con Javascript -->
+    </main>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <section>
+      <h3> Contacto</h3>
+      <address class="contact-info">
+        <p>📞 Teléfono: <a href="tel:+573012583408">+57 (301) 258 34 08</a></p>
+        <p>✉️ Email: Ricardogarcia2604black@hotmail.com</p>
+        <p>🔗 LinkedIn: <a href="www.linkedin.com/in/ricardo-andres-garcia-1a9070197" target="_blank"
+            rel="noopener noreferrer">Ricardo Andres Garcia</a></p>
+        <p>📍 Colombia, Bogotá</p>
+      </address>
+
+    </section>
+  </footer>
+  <!-- Scripts -->
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>
